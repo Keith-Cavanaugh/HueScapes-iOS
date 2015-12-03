@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "9F20EE6158931D79C854435E18108FBBE4993854",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "ED0FEE4B06950080C829482BBA4951D36F8B3430" : 0,
+    "9F20EE6158931D79C854435E18108FBBE4993854" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "97F10B9F-959F-4E68-AB01-661305F4DF6B",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "ED0FEE4B06950080C829482BBA4951D36F8B3430" : "Hue%20Quick%20Start%20iOS%20Swift",
+    "9F20EE6158931D79C854435E18108FBBE4993854" : "huescapes\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "Hue Quick Start iOS Swift",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "Hue Quick Start iOS Swift.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/johncwrobel\/huescapes.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "9F20EE6158931D79C854435E18108FBBE4993854"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "github.com:kevindew\/Hue-Quick-Start-iOS-Swift.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "ED0FEE4B06950080C829482BBA4951D36F8B3430"
+    }
+  ]
+}
