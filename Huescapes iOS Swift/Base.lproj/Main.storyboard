@@ -392,12 +392,15 @@
                                 <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                                 <animations/>
                             </imageView>
-                            <slider opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="0.5" minValue="0.0" maxValue="1" translatesAutoresizingMaskIntoConstraints="NO" id="4oN-Vj-Hx7">
+                            <slider opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="0.94999999999999996" minValue="0.0" maxValue="1" translatesAutoresizingMaskIntoConstraints="NO" id="4oN-Vj-Hx7">
                                 <rect key="frame" x="54" y="443" width="491" height="31"/>
                                 <animations/>
                                 <color key="backgroundColor" red="1" green="1" blue="1" alpha="0.0" colorSpace="calibratedRGB"/>
                                 <color key="tintColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 <color key="maximumTrackTintColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <connections>
+                                    <action selector="sliderChanges:" destination="sGz-ie-Rsx" eventType="valueChanged" id="G7S-5o-sZx"/>
+                                </connections>
                             </slider>
                         </subviews>
                         <animations/>
@@ -414,6 +417,9 @@
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="ZiH-I4-G7b"/>
+                    <connections>
+                        <outlet property="bestSlider" destination="4oN-Vj-Hx7" id="5wC-0n-1E9"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="zfH-yJ-rSC" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>

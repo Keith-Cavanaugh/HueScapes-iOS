@@ -15,6 +15,19 @@ class CustomViewController: UIViewController {
     var lightTimer = NSTimer()
     var bulbToOperateOn = 0
     
+    var brightness : Float = 0.9
+
+    
+    @IBOutlet weak var bestSlider: UISlider!
+    
+    @IBAction func sliderChanges(sender: UISlider) {
+        brightness =  self.bestSlider.value
+
+        
+    }
+    
+    
+    
     override func viewDidLoad() {
         initializeLights()
         lightTimer = NSTimer.scheduledTimerWithTimeInterval(3.0, target: self, selector: Selector("changeColor"), userInfo: nil, repeats: true)
@@ -88,7 +101,7 @@ class CustomViewController: UIViewController {
             
             lightState.transitionTime = 30
             
-            lightState.brightness = Int(arc4random()) % 254
+            lightState.brightness = Int((Double(arc4random()) % 254) * Double(brightness))
             //lightState.hue = 25500
             //lightState.saturation = 254
             
