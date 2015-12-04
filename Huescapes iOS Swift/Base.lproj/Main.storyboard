@@ -108,7 +108,7 @@
                                 <animations/>
                                 <state key="normal" title="ENTER HUE SCAPES"/>
                                 <connections>
-                                    <segue destination="ZiW-CV-fAV" kind="presentation" id="43H-vj-EMK"/>
+                                    <segue destination="bUe-4Z-gUP" kind="presentation" id="YPP-ha-xgx"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -178,10 +178,10 @@
             </objects>
             <point key="canvasLocation" x="66" y="-268"/>
         </scene>
-        <!--View Controller-->
+        <!--About View-->
         <scene sceneID="TJc-xn-NLD">
             <objects>
-                <viewController id="bUe-4Z-gUP" sceneMemberID="viewController">
+                <viewController id="bUe-4Z-gUP" customClass="AboutView" customModule="Huescapes" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="Epr-Bj-n3Q"/>
                         <viewControllerLayoutGuide type="bottom" id="YSH-UB-ftR"/>
@@ -254,7 +254,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="nSH-1O-g9P" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="62" y="397"/>
+            <point key="canvasLocation" x="824" y="-451"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="tgP-2a-KN5">
@@ -320,11 +320,11 @@
                                     <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
                                 <connections>
-                                    <segue destination="n3b-tf-iHc" kind="presentation" id="dGf-kN-LTg"/>
+                                    <segue destination="n3b-tf-iHc" kind="presentation" modalTransitionStyle="crossDissolve" id="dGf-kN-LTg"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="q5A-mW-CwY">
-                                <rect key="frame" x="15" y="473" width="570" height="119"/>
+                                <rect key="frame" x="15" y="390" width="570" height="238"/>
                                 <animations/>
                                 <state key="normal" title=" ">
                                     <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
@@ -346,7 +346,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="nXM-pW-j31" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="306" y="1109"/>
+            <point key="canvasLocation" x="-534" y="1124"/>
         </scene>
         <!--Forest View-->
         <scene sceneID="Un8-On-YJB">
@@ -388,7 +388,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="78L-qk-hu0" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="824" y="348"/>
+            <point key="canvasLocation" x="1052" y="1052"/>
         </scene>
         <!--Lava View Controller-->
         <scene sceneID="D60-jq-cnF">
@@ -439,7 +439,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="nw7-x9-q7W" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1526" y="362"/>
+            <point key="canvasLocation" x="2873" y="362"/>
         </scene>
         <!--Lava View Picker-->
         <scene sceneID="gdz-QK-1Sb">
@@ -478,7 +478,7 @@
                             <constraint firstItem="TXR-xz-NwR" firstAttribute="top" secondItem="0po-Ii-ome" secondAttribute="bottom" id="eVF-Fj-85p"/>
                             <constraint firstAttribute="trailingMargin" secondItem="0po-Ii-ome" secondAttribute="trailing" constant="-10" id="lIz-cS-4CA"/>
                             <constraint firstItem="0po-Ii-ome" firstAttribute="leading" secondItem="Et0-Y6-0ya" secondAttribute="leadingMargin" constant="-20" id="tvA-NP-I4f"/>
-                            <constraint firstItem="0po-Ii-ome" firstAttribute="top" secondItem="Et0-Y6-0ya" secondAttribute="topMargin" constant="20" id="uMZ-y2-WZX"/>
+                            <constraint firstItem="0po-Ii-ome" firstAttribute="top" secondItem="Et0-Y6-0ya" secondAttribute="topMargin" constant="10" id="uMZ-y2-WZX"/>
                         </constraints>
                         <variation key="default">
                             <mask key="constraints">
@@ -492,7 +492,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="LRd-KO-QgN" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2219" y="362"/>
+            <point key="canvasLocation" x="2208" y="-314"/>
         </scene>
         <!--Bridge Selection View Controller-->
         <scene sceneID="WNe-tM-m7P">
@@ -544,7 +544,7 @@
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="k8c-YM-4cC" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2849" y="1063"/>
+            <point key="canvasLocation" x="1847" y="1063"/>
         </scene>
         <!--Custom View Controller-->
         <scene sceneID="1N6-yo-ZrF">
@@ -725,7 +725,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="eH4-Db-BMv">
-                                <rect key="frame" x="75" y="400" width="336" height="180"/>
+                                <rect key="frame" x="0.0" y="328" width="480" height="296"/>
                                 <animations/>
                                 <state key="normal" title=" ">
                                     <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
@@ -849,7 +849,7 @@
                         <animations/>
                     </navigationBar>
                     <connections>
-                        <segue destination="bUe-4Z-gUP" kind="relationship" relationship="rootViewController" id="0he-QT-F57"/>
+                        <segue destination="AIz-VA-5tf" kind="relationship" relationship="rootViewController" id="FbS-jY-QxZ"/>
                     </connections>
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="8a9-ra-cNu" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -904,7 +904,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="hQe-Jx-G57" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1537" y="-314"/>
+            <point key="canvasLocation" x="2193" y="-338"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="Kio-wo-48r">
@@ -1008,10 +1008,11 @@
         <image name="settings" width="753" height="1291"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="v4K-2O-7Dz"/>
-        <segue reference="CzJ-oy-wTu"/>
         <segue reference="8CV-B8-42r"/>
-        <segue reference="flI-6V-37R"/>
+        <segue reference="CzJ-oy-wTu"/>
+        <segue reference="uO3-Rf-zxO"/>
+        <segue reference="HKh-Iw-Elt"/>
         <segue reference="LnH-SA-0j3"/>
+        <segue reference="flI-6V-37R"/>
     </inferredMetricsTieBreakers>
 </document>
