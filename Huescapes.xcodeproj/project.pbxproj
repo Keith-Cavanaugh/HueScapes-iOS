@@ -12,6 +12,9 @@
 		3A0CBF951C0E66B700D9596F /* EditSceneView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A0CBF941C0E66B700D9596F /* EditSceneView.swift */; };
 		3A0CBF971C0E8BBF00D9596F /* newScene2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3A0CBF961C0E8BBF00D9596F /* newScene2.jpg */; };
 		3A2C94A01C0EAF4B00D0F152 /* CustomViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A2C949F1C0EAF4B00D0F152 /* CustomViewController.swift */; };
+		3A3CE0381C1114EA00821C25 /* settings.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3A3CE0371C1114EA00821C25 /* settings.jpg */; };
+		3A3CE03A1C111B8B00821C25 /* notificationcenter.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3A3CE0391C111B8B00821C25 /* notificationcenter.jpg */; };
+		3A3FAE7D1C112DD600EA01AE /* AboutView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A3FAE7C1C112DD600EA01AE /* AboutView.swift */; };
 		3A539DDA1C0BE1F500F24A0C /* LavaViewPicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A539DD91C0BE1F500F24A0C /* LavaViewPicker.swift */; };
 		3A872F551C0F52F700D03EA8 /* OceanImageView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3A872F541C0F52F700D03EA8 /* OceanImageView.xib */; };
 		3A872F571C0F548100D03EA8 /* customsceneview.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3A872F561C0F548100D03EA8 /* customsceneview.jpg */; };
@@ -41,6 +44,9 @@
 		3A0CBF941C0E66B700D9596F /* EditSceneView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EditSceneView.swift; sourceTree = "<group>"; };
 		3A0CBF961C0E8BBF00D9596F /* newScene2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = newScene2.jpg; sourceTree = "<group>"; };
 		3A2C949F1C0EAF4B00D0F152 /* CustomViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomViewController.swift; sourceTree = "<group>"; };
+		3A3CE0371C1114EA00821C25 /* settings.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = settings.jpg; sourceTree = "<group>"; };
+		3A3CE0391C111B8B00821C25 /* notificationcenter.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = notificationcenter.jpg; sourceTree = "<group>"; };
+		3A3FAE7C1C112DD600EA01AE /* AboutView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AboutView.swift; path = ../AboutView.swift; sourceTree = "<group>"; };
 		3A539DD91C0BE1F500F24A0C /* LavaViewPicker.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = LavaViewPicker.swift; path = ../LavaViewPicker.swift; sourceTree = "<group>"; };
 		3A872F541C0F52F700D03EA8 /* OceanImageView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = OceanImageView.xib; sourceTree = "<group>"; };
 		3A872F561C0F548100D03EA8 /* customsceneview.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = customsceneview.jpg; sourceTree = "<group>"; };
@@ -108,8 +114,11 @@
 			children = (
 				DE625B561A7078D8004296E9 /* AppDelegate.swift */,
 				DE625B5D1A7078D8004296E9 /* Main.storyboard */,
+				3A3CE0391C111B8B00821C25 /* notificationcenter.jpg */,
+				3A3FAE7C1C112DD600EA01AE /* AboutView.swift */,
 				3A2C949F1C0EAF4B00D0F152 /* CustomViewController.swift */,
 				3A872F541C0F52F700D03EA8 /* OceanImageView.xib */,
+				3A3CE0371C1114EA00821C25 /* settings.jpg */,
 				3A0CBF921C0E60B800D9596F /* IMG_2010.JPG */,
 				3A0CBF961C0E8BBF00D9596F /* newScene2.jpg */,
 				3A872F561C0F548100D03EA8 /* customsceneview.jpg */,
@@ -242,9 +251,11 @@
 				3A0CBF931C0E60B800D9596F /* IMG_2010.JPG in Resources */,
 				DE625B611A7078D8004296E9 /* Images.xcassets in Resources */,
 				3A0CBF971C0E8BBF00D9596F /* newScene2.jpg in Resources */,
+				3A3CE0381C1114EA00821C25 /* settings.jpg in Resources */,
 				3A0CBF8F1C0E5F6200D9596F /* newScene.jpg in Resources */,
 				3A872F571C0F548100D03EA8 /* customsceneview.jpg in Resources */,
 				3A872F551C0F52F700D03EA8 /* OceanImageView.xib in Resources */,
+				3A3CE03A1C111B8B00821C25 /* notificationcenter.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -259,6 +270,7 @@
 				DE625BB21A707BE7004296E9 /* DDASLLogger.m in Sources */,
 				DE625BB91A707E59004296E9 /* ControlLightsViewController.swift in Sources */,
 				DE625B571A7078D8004296E9 /* AppDelegate.swift in Sources */,
+				3A3FAE7D1C112DD600EA01AE /* AboutView.swift in Sources */,
 				DE625BB71A707BE7004296E9 /* DispatchQueueLogFormatter.m in Sources */,
 				DE625BB11A707BE7004296E9 /* DDAbstractDatabaseLogger.m in Sources */,
 				DE625BB51A707BE7004296E9 /* DDTTYLogger.m in Sources */,
