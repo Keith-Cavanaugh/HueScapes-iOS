@@ -35,6 +35,7 @@ class LavaViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
     
+    //set lights to red/blue initially so they vary around correct colors
     func initializeRed() {
         let cache = PHBridgeResourcesReader.readBridgeResourcesCache()
         let bridgeSendAPI = PHBridgeSendAPI()
@@ -47,6 +48,7 @@ class LavaViewController: UIViewController {
             
             let lightState = PHLightState()
             
+            //set time light take to change color to 3 seconds
             lightState.transitionTime = 30
             lightState.brightness = Int(arc4random()) % 254
             lightState.saturation = 254
@@ -85,6 +87,7 @@ class LavaViewController: UIViewController {
             
             let lightState = PHLightState()
             
+            //set transition time to 3 seconds
             lightState.transitionTime = 30
             
             lightState.brightness = Int(arc4random()) % 254
@@ -92,11 +95,13 @@ class LavaViewController: UIViewController {
             //lightState.saturation = 254
             
             if(incOrDec < 5) {
+                //getting brighter this time
                 let brightnessIncrementValue = Int(arc4random_uniform(90)) + 150
                 let hueIncrementValue = Int(arc4random_uniform(500)) + 500
                 lightState.brightnessIncrement = brightnessIncrementValue
                 lightState.hueIncrement = hueIncrementValue
             } else {
+                //getting dimmer this time
                 let brightnessDecrementValue = (Int(arc4random_uniform(90)) + 150) * -1
                 let hueDecrementValue = (Int(arc4random_uniform(500)) + 500) * -1
                 lightState.brightnessIncrement = brightnessDecrementValue

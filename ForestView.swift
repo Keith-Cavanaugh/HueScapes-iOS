@@ -44,17 +44,20 @@ class ForestView: UIViewController {
                 continue
             }
             
+            //random number to decide if lights will get brighter or dimmer this time around
             let incOrDec = Int(arc4random_uniform(10))
             
             let lightState = PHLightState()
             
+            //set the time bulbs take to transition to 3 seconds
             lightState.transitionTime = 30
             
-            lightState.brightness = Int(arc4random()) % 254
+            //lightState.brightness = Int(arc4random()) % 254
             //lightState.hue = 25500
             //lightState.saturation = 254
             
             if(incOrDec < 5) {
+                //getting brighter
                 let brightnessIncrementValue = Int(arc4random_uniform(50)) + 150
                 let saturationIncrementValue = Int(arc4random_uniform(50)) + 25
                 let hueIncrementValue = Int(arc4random_uniform(1000)) + 1000
@@ -62,6 +65,7 @@ class ForestView: UIViewController {
                 lightState.saturationIncrement = saturationIncrementValue
                 lightState.hue = 25500 + hueIncrementValue
             } else {
+                //getting dimmer
                 let brightnessDecrementValue = (Int(arc4random_uniform(50)) + 150) * -1
                 let saturationDecrementValue = (Int(arc4random_uniform(50)) + 25) * -1
                 let hueDecrementValue = (Int(arc4random_uniform(1000)) + 1000) * -1

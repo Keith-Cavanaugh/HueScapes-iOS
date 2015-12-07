@@ -106,11 +106,13 @@ class CustomViewController: UIViewController {
             //lightState.saturation = 254
             
             if(incOrDec < 5) {
+                //getting brighter this time
                 let brightnessIncrementValue = Int(arc4random_uniform(90)) + 150
                 let hueIncrementValue = Int(arc4random_uniform(500)) + 500
                 lightState.brightnessIncrement = brightnessIncrementValue
                 lightState.hueIncrement = hueIncrementValue
             } else {
+                //getting dimmer this time
                 let brightnessDecrementValue = (Int(arc4random_uniform(90)) + 150) * -1
                 let hueDecrementValue = (Int(arc4random_uniform(500)) + 500) * -1
                 lightState.brightnessIncrement = brightnessDecrementValue
